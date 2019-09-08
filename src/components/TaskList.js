@@ -12,7 +12,7 @@ function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     return <div className="list-items">empty</div>;
   }
   return (
-    <div className="list-items ">
+    <div className="list-items">
       {tasks.map(task => (
         <Task key={task.id} task={task} {...events} />
       ))}

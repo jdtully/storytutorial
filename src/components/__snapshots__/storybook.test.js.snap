@@ -130,7 +130,7 @@ exports[`Storyshots TaskList default 1`] = `
   }
 >
   <div
-    className="list-items "
+    className="list-items"
   >
     <div
       className="list-item TASK_INBOX"
@@ -417,7 +417,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
   }
 >
   <div
-    className="list-items "
+    className="list-items"
   >
     <div
       className="list-item TASK_INBOX"

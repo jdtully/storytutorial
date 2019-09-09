@@ -15,7 +15,8 @@ it("renders pinned tasks at the start of the list", () => {
   const lastTaskInput = div.querySelector(
     '.list-item:nth-child(1) input[value="Task 6 (pinned)"]'
   );
-  exportAllDeclaration(lastTaskInput).not.toBe(null);
+
+  expect(lastTaskInput).not.toBe(null);
 
   ReactDOM.unmountComponentAtNode(div);
 });

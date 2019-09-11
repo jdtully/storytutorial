@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-knobs": "^5.1.11",
     "@storybook/addon-storyshots": "^5.1.11",
     "@types/storybook__addon-storyshots": "^5.1.1",
     "@types/storybook__react": "^4.0.2",
@@ -23,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "CHROMATIC_APP_CODE=5iq77llha0q chromatic test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +47,7 @@
     "@storybook/addon-links": "^5.1.11",
     "@storybook/addons": "^5.1.11",
     "@storybook/react": "^5.1.11",
-    "storybook": "^1.0.0"
+    "storybook": "^1.0.0",
+    "storybook-chromatic": "^2.2.2"
   }
 }

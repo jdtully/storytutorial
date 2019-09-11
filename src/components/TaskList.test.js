@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import PureTaskList from "./TaskList";
+import { PureTaskList } from "./TaskList";
 import { withPinnedTasks } from "./TaskList.stories";
 
 it("renders pinned tasks at the start of the list", () => {
   const div = document.createElement("div");
-  const events = {
-    onPinTask: jest.fn(),
-    onArchiveTask: jest.fn()
-  };
+  const events = { onPinTask: jest.fn(), onArchiveTask: jest.fn() };
   ReactDOM.render(<PureTaskList tasks={withPinnedTasks} {...events} />, div);
   // We expect the task titled "task 6 pinned  to be rendered  first not  at the end
 

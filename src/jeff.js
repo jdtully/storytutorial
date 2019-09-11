@@ -1,27 +1,18 @@
-// src/lib/redux.js
+import React from "react";
+import ReactDOM from "react-dom";
+import { PureTaskList } from "./TaskList";
+import { withPinnedTasks } from "./TaskList.stories";
 
-// A simple redux store/actions/reducer implementation.
-// A true app would be more complex and separated into different files.
-import { createStore } from "redux";
+it("renders pinned tasks at the start of the list", () => {
+  const div = document.createElement("div");
+  const events = { onPinTask: jest.fn(), onArchiveTask: jest.fn() };
+  ReactDOM.render(<PureTaskList tasks={withPinnedTasks} {...events} />, div);
 
-// The actions are the "names" of the changes that can happen to the store
-export const actions = {
-  ARCHIVE_TASK: "ARCHIVE_TASK",
-  PIN_TASK: "PIN_TASK"
-};
+  // We expect the task titled "Task 6 (pinned)" to be rendered first, not at the end
+  const lastTaskInput = div.querySelector(
+    '.list-item:nth-child(1) input[value="Task 6 (pinned)"]'
+  );
+  expect(lastTaskInput).not.toBe(null);
 
-// The action creators bundle actions with the data required to execute them
-export const archiveTask = id => ({ type: actions.ARCHIVE_TASK, id });
-export const pinTask = id => ({ type: actions.PIN_TASK, id });
-
-// All our reducers simply change the state of a single task.
-function taskStateReducer(taskState) {
-  return (state, action) => {
-    return {
-      ...state,
-      tasks: state.tasks.map(task =>
-        task.id === action.id ? { ...task, state: taskState } : task
-      )
-    };
-  };
-}
+  ReactDOM.unmountComponentAtNode(div);
+});

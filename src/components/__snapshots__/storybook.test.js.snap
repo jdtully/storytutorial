@@ -41,6 +41,11 @@ exports[`Storyshots InboxScreen default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -81,6 +86,11 @@ exports[`Storyshots InboxScreen default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -121,6 +131,11 @@ exports[`Storyshots InboxScreen default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -161,6 +176,11 @@ exports[`Storyshots InboxScreen default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -201,6 +221,11 @@ exports[`Storyshots InboxScreen default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -241,6 +266,11 @@ exports[`Storyshots InboxScreen default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -310,6 +340,11 @@ exports[`Storyshots Task archived 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -345,6 +380,11 @@ exports[`Storyshots Task default 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -388,6 +428,11 @@ exports[`Storyshots Task pinned 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -441,6 +486,11 @@ exports[`Storyshots TaskList default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -481,6 +531,11 @@ exports[`Storyshots TaskList default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -521,6 +576,11 @@ exports[`Storyshots TaskList default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -561,6 +621,11 @@ exports[`Storyshots TaskList default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -601,6 +666,11 @@ exports[`Storyshots TaskList default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -641,6 +711,11 @@ exports[`Storyshots TaskList default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -881,6 +956,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6 (pinned)"
         />
@@ -921,6 +1001,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -961,6 +1046,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -1001,6 +1091,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -1041,6 +1136,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -1081,6 +1181,11 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
